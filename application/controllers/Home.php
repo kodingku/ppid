@@ -13,7 +13,16 @@ class Home extends CI_Controller
 		$data['main'] = "front/display";
 		$this->load->view('layouts/main',$data);
 	}
-
+	public function kontak()
+	{
+		$data['main'] = "front/extra/kontak";
+		$this->load->view('layouts/main',$data);
+	}
+	public function faq()
+	{
+		$data['main'] = "front/extra/faq";
+		$this->load->view('layouts/main',$data);
+	}
 
 	/*
 		Method For Layanan Informasi Publik

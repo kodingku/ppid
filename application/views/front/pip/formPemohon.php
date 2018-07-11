@@ -62,13 +62,14 @@
 			<?php echo form_radio($data); ?>Perusahaan
 
 		</div>
+
 		<div class="form-group">
 			<?php echo form_label('Upload Foto identitas (untuk perorangan) / Foto Pendukung (untuk Perusahaan)'); ?>
 		
 				<input type="file" name="fl_photo" class="form-control col-md-6" required="required">
-				<span>*Maks 1Mb File Upload</span>
+				<span>*Maksimum 1Mb File Upload</span>
 			</div>
-		</div>
+		
 
 		<div class="form-group">
 			
@@ -79,7 +80,6 @@
 						$data = array(
 							'class' => 'form-control',
 							'name' => 'nama',
-							'placeholder' => ' masukan nama lengkap anda',
 							'required' => 'required'
 
 						);
@@ -99,7 +99,6 @@
 						$data = array(
 							'class' => 'form-control',
 							'name' => 'email',
-							'placeholder' => ' masukan email lengkap anda',
 							'required' => 'required'
 
 						);
@@ -119,7 +118,6 @@
 						$data = array(
 							'class' => 'form-control',
 							'name' => 'telepon',
-							'placeholder' => ' masukan nomor telepon lengkap anda',
 							'required' => 'required'
 
 						);

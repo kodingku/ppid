@@ -45,7 +45,23 @@
 		    			<img src="<?php echo base_url() ?>assets/img/kolase.jpg" class="img-fluid">
 		    		</div>
 		    	</div>
-		    	<div class="row g-mt-30">
+		    	<nav class="navbar navbar-expand-sm bg-light" id="navigasi">
+
+				  <!-- Links -->
+				  <ul class="navbar-nav">
+				    <li class="nav-item">
+				      <a class="nav-link" href="<?php echo base_url()?>Home">Halaman Utama</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="<?php echo base_url()?>Home/kontak">Kontak Kami</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="nav-link" href="<?php echo base_url()?>Home/faq">Faq</a>
+				    </li>
+				  </ul>
+
+				</nav>
+		    	<div class="row g-mt-10">
 			    	<div class="col-md-4" id="colorTextMenu">
 			    		<h4>Layanan Informasi Publik</h4>
 			    		 <ul class="list-group">
