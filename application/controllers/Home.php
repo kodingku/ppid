@@ -84,7 +84,7 @@ class Home extends CI_Controller
 		Method For Laporan layanan PIP
 	*/
 
-	public function daftarUmum(){
+	public function rekapitulasiInformasi(){
 		$data['main'] = "front/pip/rekapitulasiInformasi";
 		$this->load->view('layouts/main',$data);
 	}
