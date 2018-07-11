@@ -32,7 +32,7 @@
 	   <link rel="stylesheet" href="<?php echo base_url();?>assets/css/typed.css">
 	   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 	   <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/jquery-ui.min.css">
-	   
+	   <link  rel="stylesheet" href="<?php echo base_url()?>assets/css/custom.css">
 </head>
 <body>
 
@@ -45,8 +45,8 @@
 		    			<img src="<?php echo base_url() ?>assets/img/kolase.jpg" class="img-fluid">
 		    		</div>
 		    	</div>
-		    	<div class="row">
-			    	<div class="col-md-4">
+		    	<div class="row g-mt-30">
+			    	<div class="col-md-4" id="colorTextMenu">
 			    		<h4>Layanan Informasi Publik</h4>
 			    		 <ul class="list-group">
 						  <li class="list-group-item"><a href="<?php echo base_url()?>Home/dasarHukum">Dasar Hukum</a></li>
@@ -76,7 +76,7 @@
 						</ul> 
 
 			    		 <ul class="list-group">
-						  <li class="list-group-item"><a href="#">Masuk Halaman Pemohon</a></li>
+						  <li class="list-group-item"><a href="<?php echo base_url()?>Home/formPemohon">Masuk Halaman Pemohon</a></li>
 						</ul> 
 			    	</div>
 			    	<div class="col-md-8">

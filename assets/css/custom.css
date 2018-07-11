@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+#colorTextMenu ul > li > a{
+	color: blue;
+	font-family: 'Space Mono', monospace;
+	font-size: 16px;
+}
+h4 {
+	font-weight: bold;
+	font-family: 'Space Mono', monospace;
+	background-color: grey;
+	color: #fff;
+}
