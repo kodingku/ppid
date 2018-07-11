@@ -72,7 +72,7 @@
 			    		 <ul class="list-group">
 						  <li class="list-group-item"><a href="<?php echo base_url()?>Home/rekapitulasiInformasi">Rekapitulasi Permohonan Informasi</a></li>
 						  <li class="list-group-item"><a href="<?php echo base_url()?>Home/informasiPublik">Laporan Akses Informasi Publik</a></li>
-						  <li class="list-group-item"><a href="#">Laporan Tahunan PPID 2016</a></li>
+						  <li class="list-group-item"><a href="<?php echo base_url()?>Home/laporanPpid">Laporan Tahunan PPID 2016</a></li>
 						</ul> 
 
 			    		 <ul class="list-group">
